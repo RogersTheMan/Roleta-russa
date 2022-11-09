@@ -1,0 +1,87 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  justify-content: center;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+#centro2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#escolha::placeholder {
+  color: white;
+  font-size: 0.9em;
+}
+
+#escolha {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 1rem;
+  background-color: gray;
+}
+
+#btn {
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 100);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: rgb(58, 57, 57);
+  transition: 0.6s;
+}
+
+#gif {
+  border-radius: 5px;
+  width: 700px;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.img {
+  margin: auto;
+  display: flex;
+  border-radius: 10px;
+}
+
+.btnAgain {
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  padding: 12px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+}
+
+.btnAgain:hover {
+  background-color: rgb(58, 57, 57);
+  transition: 0.6s;
+}
+
+.tirarImagem {
+  width: 100px;
+}
