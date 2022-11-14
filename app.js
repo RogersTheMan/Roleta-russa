@@ -7,7 +7,7 @@ const resp = document.querySelector("#resp");
 const gif = document.querySelector("#gif");
 const div1 = document.querySelector("#centro2");
 const imgMorte = document.createElement("img");
-imgMorte.src = "imgs/bang.jpg";
+imgMorte.src = "imgs/bang.png";
 imgMorte.setAttribute("class", "img");
 const imgVive = document.createElement("img");
 imgVive.src = "imgs/viveu.png";
